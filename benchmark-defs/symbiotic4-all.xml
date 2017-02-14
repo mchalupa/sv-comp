@@ -8,7 +8,7 @@
 
   <rundefinition name="spin-2017-memsafety"></rundefinition>
 
-  <!-- with slicing & points-to analysis in instrumentation --!>
+  <!-- with slicing & points-to analysis in instrumentation -->
   <tasks name="MemSafety-Arrays">
     <includesfile>../sv-benchmarks/c/MemSafety-Arrays.set</includesfile>
     <propertyfile>../sv-benchmarks/c/MemSafety.prp</propertyfile>
@@ -30,7 +30,7 @@
     <propertyfile>../sv-benchmarks/c/MemSafety.prp</propertyfile>
   </tasks>
 
-  <!-- without slicing, but with the points-to --!>
+  <!-- without slicing, but with the points-to -->
   <tasks name="MemSafety-Arrays">
     <includesfile>../sv-benchmarks/c/MemSafety-Arrays.set</includesfile>
     <propertyfile>../sv-benchmarks/c/MemSafety.prp</propertyfile>
@@ -57,7 +57,7 @@
     <option name="--no-slice"/>
   </tasks>
 
-  <!-- without static analysis in instrumentation but with slicing --!>
+  <!-- without static analysis in instrumentation but with slicing -->
   <tasks name="MemSafety-Arrays">
     <includesfile>../sv-benchmarks/c/MemSafety-Arrays.set</includesfile>
     <propertyfile>../sv-benchmarks/c/MemSafety.prp</propertyfile>
@@ -84,7 +84,7 @@
     <option name="--disable-instr-plugins"/>
   </tasks>
 
-  <!-- without slicing & static analysis in instrumentation --!>
+  <!-- without slicing & static analysis in instrumentation -->
   <tasks name="MemSafety-Arrays">
     <includesfile>../sv-benchmarks/c/MemSafety-Arrays.set</includesfile>
     <propertyfile>../sv-benchmarks/c/MemSafety.prp</propertyfile>
